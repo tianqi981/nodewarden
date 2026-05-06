@@ -1,5 +1,6 @@
 name = "nodewarden"
-main = "dist/index.js"
+# 直接用源码入口，不需要编译dist
+main = "src/index.ts"
 compatibility_date = "2025-01-01"
 
 [vars]
